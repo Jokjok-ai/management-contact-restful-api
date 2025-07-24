@@ -8,9 +8,9 @@ export const web = express();
 
 web.use(
   cors({
-    origin: "*", // Ganti dengan domain frontend kalau di production
-    methods: ["GET", "POST", "PATCH", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization", "Accept"],
+    // origin: "*", // Ganti dengan domain frontend kalau di production
+    // methods: ["GET", "POST", "PATCH", "PUT", "DELETE"],
+    // allowedHeaders: ["Content-Type", "Authorization", "Accept"],
   })
 );
 
